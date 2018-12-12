@@ -19,8 +19,8 @@ to prepare the training data.
 you need MS COCO dataset and put the dataset in data folder, if you want to train this model.
 To train the model on your own dataset, you will need to extend two classes:
 
-'''Config''' 
+```Config``` 
 This class contains the default configuration. Subclass it on modity the attributes you need to change.
 
-'''Dataset''' 
-This model allow you to use new datasets for training without having to change the code. The '''Dataset''' class it self is the base class. To use it, create a new class that inferits from it and adds functions specific to your dataset.
+```Dataset``` 
+This model allow you to use new datasets for training without having to change the code. The ```Dataset``` class it self is the base class. To use it, create a new class that inferits from it and adds functions specific to your dataset.
