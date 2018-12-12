@@ -8,7 +8,7 @@ The repository includes:
 * Multi-GPU training.
 
 # Getting Started
-* [model.py](/libs/nets/model.py), [utils.py](utils.py), [config.py](/libs/configs/config.py)): These files contain the main Mask RCNN implementation. 
+* ([model.py](/libs/nets/model.py), [utils.py](utils.py), [config.py](/libs/configs/config.py)): These files contain the main Mask RCNN implementation. 
 
 * [Training_Data_Test.ipynb](/Training_Data_Test.ipynb). This notebook visualizes the different pre-processing steps
 to prepare the training data.
